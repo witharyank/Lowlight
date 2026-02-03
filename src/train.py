@@ -1,16 +1,15 @@
 from ultralytics import YOLO
 
-def train_model():
+
+def main():
     model = YOLO("yolov8n.pt")
 
     model.train(
-        data="coco128.yaml",
-        epochs=35,
-        imgsz=640,
-        hsv_h=0.1,
-        hsv_s=0.7,
-        hsv_v=0.7
+        data="C:/Users/krary/OneDrive/Desktop/datasets/coco128_enhanced/coco128_enhanced.yaml",
+        epochs=40,
+        imgsz=640
     )
 
+
 if __name__ == "__main__":
-    train_model()
+    main()
