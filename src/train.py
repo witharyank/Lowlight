@@ -5,7 +5,7 @@ def train_model():
 
     model.train(
         data="coco128.yaml",
-        epochs=30,
+        epochs=35,
         imgsz=640,
         hsv_h=0.1,
         hsv_s=0.7,
