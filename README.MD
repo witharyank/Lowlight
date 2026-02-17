@@ -51,3 +51,6 @@ python train.py
 - Ultralytics YOLO
 - NumPy
 - (See `requirements.txt` for full list)
+
+## Author
+Kumar Aryan GitHub: https://github.com/witharyank
