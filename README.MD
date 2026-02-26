@@ -14,6 +14,10 @@ This project combines low-light image enhancement techniques with object detecti
 ## Installation
 
 1. Clone the repository.
+```bash
+git clone https://github.com/witharyank/Lowlight
+cd lowlight
+```
 2. Install the required dependencies:
 
 ```bash
