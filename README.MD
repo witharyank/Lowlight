@@ -1,4 +1,4 @@
-# Low-Light Object Detection & Enhancement
+ # Low-Light Object Detection & Enhancement
 
 This project combines low-light image enhancement techniques with object detection using YOLOv8. It is designed to improve visibility in dark images before performing object detection.
 
@@ -54,7 +54,7 @@ python train.py
 - OpenCV
 - Ultralytics YOLO
 - NumPy
-- (See `requirements.txt` for full list)
+- (See `requirements.txt` for full list with versions)
 
 ## Author
 Kumar Aryan GitHub: https://github.com/witharyank
