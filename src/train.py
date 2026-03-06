@@ -5,9 +5,9 @@ def main():
 
     model.train(
         data="C:/Users/krary/OneDrive/Desktop/datasets/coco128_enhanced/coco128_enhanced.yaml",
-        epochs=50,
+        epochs=40,
         imgsz=768,
-        batch=4,
+        batch=8,
         cos_lr=True,
         patience=10,
         hsv_h=0.02,
